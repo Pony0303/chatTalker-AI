@@ -50,14 +50,14 @@ table {
 body{
 	font-family: 'Noto Sans TC', sans-serif;
 	line-height: 1.5;
-	background-image: url(/images/bg_home.svg),url(/images/ball01.svg);
+	background-image: url(../images/bg_home.svg),url(../images/ball01.svg);
 	background-repeat: no-repeat;
 	background-size: 850px,360px;
 	background-position:right top,-222px 589px;
 	}
 	@media (max-width:576px){
 		body{
-			background-image: url(/images/Path\ 157.svg),url(/images/ball01.svg);
+			background-image: url(../images/Path\ 157.svg),url(../images/ball01.svg);
 			background-size: 100%,126px;
 			background-position:0 324px,-77px 743px;
 			}
@@ -98,7 +98,7 @@ sub{
 	top: calc(100vh + 1055px);
 	right: 0;
 	z-index: -99;
-	background-image: url(/images/ball02.svg);
+	background-image: url(../images/ball02.svg);
 	background-size: 310px;
 }
 @media (max-width:375px){
@@ -106,7 +106,7 @@ sub{
 		width: 88px;
 		height: 135px;
 		top: 3067px;
-		background-image: url(/images/ball02.svg);
+		background-image: url(../images/ball02.svg);
 		background-size: 135px;
 	}
 }
@@ -483,7 +483,7 @@ sub{
 
 .footerPlan{
 	height: 503px;
-	background-image: url(/images/home_footer.svg);
+	background-image: url(../images/home_footer.svg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: center;
@@ -491,7 +491,7 @@ sub{
 }
 @media (max-width:576px){
 	.footerPlan{
-		background-image: url(/images/footer_sm.svg);
+		background-image: url(../images/footer_sm.svg);
 	}
 }
 @media (max-width:375px){
@@ -506,7 +506,7 @@ sub{
 	top: -472px;;
 	left: 50px;
 	z-index: -99;
-	background-image: url(/images/ball03.svg);
+	background-image: url(../images/ball03.svg);
 	background-size: 150px;
 }
 @media (max-width:576px){

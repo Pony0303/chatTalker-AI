@@ -51,29 +51,32 @@ table {
 body{
 	font-family: 'Noto Sans TC', sans-serif;
 	line-height: 1.5;
+}
+img{
+		max-width: 100%;
+		height: auto;
+}
+a{
+		text-decoration: none;
+		display: block;
+}
+sub{
+		vertical-align: sub;
+}
+.index{
 	background-image: url(../images/bg_home.svg),url(../images/ball01.svg);
 	background-repeat: no-repeat;
 	background-size: 850px,360px;
 	background-position:right top,-222px 589px;
-	}
+}
 	@media (max-width:576px){
-		body{
+		.index{
 			background-image: url(../images/Path\ 157.svg),url(../images/ball01.svg);
 			background-size: 100%,126px;
 			background-position:0 324px,-77px 743px;
 			}
 	}
-img{
-	max-width: 100%;
-	height: auto;
-}
-a{
-	text-decoration: none;
-	display: block;
-}
-sub{
-	vertical-align: sub;
-}
+
 .navbar{
 	max-width: 1088px;
 	margin: 0 auto;
@@ -555,3 +558,6 @@ sub{
 	color: #221E1F;
 	padding: 16px 0;
 }
+
+
+

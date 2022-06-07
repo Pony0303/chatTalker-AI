@@ -80,7 +80,7 @@ sub{
 .navbar{
 	max-width: 1088px;
 	margin: 0 auto;
-	padding:8px 16px;
+	padding:24px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -560,4 +560,44 @@ sub{
 }
 
 
-
+.payment{
+	background-image: url(../images/banner.svg);
+	background-position:right top;
+	background-repeat: no-repeat;
+}
+.headerPayment{
+	max-width: 1088px;
+	margin: 0 auto;
+	margin-bottom: 280px;
+}
+.headerPayment h1{
+	font-size: 48px;
+	font-weight: bold;
+	padding-top: 92px;
+}
+.headerPayment p{
+	padding-top: 16px;
+}
+.wrapPayment{
+	max-width: 909px;
+	margin: 0 auto;
+}
+.mainPayment{
+	text-align: center;
+}
+.mainPayment h2{
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 48px;
+}
+.numberbtn{
+	display: flex;
+	justify-content:center;
+}
+.numberItems{
+	margin-right: 16px;
+	color: #56C4C5;
+	padding:12px 32px;
+	border: 1px solid #56C4C5;
+ 	border-radius: 27px;
+}

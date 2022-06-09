@@ -582,6 +582,16 @@ sub{
 	max-width: 909px;
 	margin: 0 auto;
 }
+.bgyellowball{
+	position: absolute;
+	top:876px;
+	left: 0;
+	height: 361px;
+	width: 94px;
+	background-image: url(../images/Ellipse\ 3.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
 .mainPayment{
 	text-align: center;
 }
@@ -593,11 +603,145 @@ sub{
 .numberbtn{
 	display: flex;
 	justify-content:center;
+	margin-bottom: 48px;
+}
+.numberItems_active{
+	font-size: 18px;
+	margin-right: 16px;
+	color: #FFFFFF;
+	padding:12px 32px;
+	background: #56C4C5; 
+ 	border-radius: 27px;
 }
 .numberItems{
+	font-size: 18px;
 	margin-right: 16px;
 	color: #56C4C5;
 	padding:12px 32px;
 	border: 1px solid #56C4C5;
  	border-radius: 27px;
+}
+
+.mainCotent{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 94px;
+}
+.contentBox{
+	width:444px;
+	text-align: center;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+}
+.contentBox h3{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.contentBox p{
+	padding: 32px 0;
+}
+
+.userBox ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.userBox li{
+	margin-left:21px;
+	background: #F5F5F5 0% 0% no-repeat padding-box;
+	border-radius: 12px;
+	padding-bottom: 24px;
+	padding-left: 32px;
+	padding-right: 32px;	
+}
+.userBox .equal{
+	background: none;
+	padding: 0;
+	font-size: 29px;
+}
+.userBox p{
+	font-size: 12px;
+    text-align: center;
+	padding-top: 24px;
+	padding-bottom: 8px;
+}
+.userBox span{
+	font-size: 32px;
+	color: #56C4C5;
+}
+.userBox sub{
+	font-size: 12px;
+}
+.userBox .NT{
+	color: #221E1F;
+}
+.boxList{
+	padding-left: 29px;
+	padding-top: 32px;
+	padding-bottom: 42px;
+}
+.boxList li{
+	height: 24px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 16px;
+}
+.boxList img{
+	height: 16px;
+}
+.joinbtn{
+	display: inline-block;
+	font-size: 18px;
+	color: #FFFFFF;
+	padding:12px 32px;
+	background: #56C4C5; 
+ 	border-radius: 27px;
+	margin-bottom: 38px;
+}
+.FAQ{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.FAQ h2{
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 48px;
+}
+.FAQcontent{
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+	padding: 0 32px;
+	margin-bottom: 16px;
+}
+.FAQcontent p{
+	font-size: 18px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.faqactive{
+	text-align: left;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+	padding: 0 32px;
+	padding-bottom: 32px;
+}
+.FAQtext{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 24px;	
+}
+.FAQtext p{
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 16px;
+	color: #56C4C5;
+}
+.answer{
+	line-height: 2;
 }
